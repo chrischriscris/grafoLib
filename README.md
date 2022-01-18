@@ -33,6 +33,6 @@ Se incluye un _Makefile_ que compila la librería entera con el comando
 > make
 ```
 
-# Librería
+# Descripción
 
-TODO
+La librería entera es construida usando como base la interfaz `Grafo` y la clase abstracta `Lado`. Las clases que implementan `Grafo` son `GrafoNoDirigido` y `GrafoDirigido`, y las implementaciones de `Lado` se encuentran en `Arista` y `Arco`, como los lados de `GrafoNoDirigido` y `GrafoDirigifo`, respectivamente.
