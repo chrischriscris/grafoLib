@@ -26,13 +26,20 @@ La carpeta incluye dos estudios sobre algoritmos:
   - Un algoritmo ávido descrito en el archivo correspondiente al Proyecto 2 en la carpeta de especificaciones.
   - El algoritmo Vertex-Scan propuesto por David Avis.
 
-# Compilación
+## Compilación
 
 Se incluye un _Makefile_ que compila la librería entera con el comando
 ```
 > make
 ```
 
-# Descripción
+## Descripción
 
 La librería entera es construida usando como base la interfaz `Grafo` y la clase abstracta `Lado`. Las clases que implementan `Grafo` son `GrafoNoDirigido` y `GrafoDirigido`, y las implementaciones de `Lado` se encuentran en `Arista` y `Arco`, como los lados de `GrafoNoDirigido` y `GrafoDirigifo`, respectivamente.
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
+---
+⌨️ con ❤️ por [chrischriscris](https://github.com/chrischriscris) 😊
