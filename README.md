@@ -15,7 +15,7 @@ La librería fue construida siguiendo las especificaciones contenidas en los arc
 La carpeta incluye dos estudios sobre algoritmos:
 
 + **AlgoritmosMTS**: Estudio sobre la eficiencia y los resultados de los algoritmos implementados en la librería para hallar componentes conexas y árboles mínimos cobertores en grafos no dirigidos. En específico, compara:
-  - Para hallar componentes conexas:
+  - **Para hallar componentes conexas**:
     - Un algoritmo basado en Búsqueda en Profundidad (DFS), implementado de forma recursiva e iterativa.
     - Un algoritmo basado en la estructura de datos de conjuntos disjuntos, implementada usando las heurísticas de compresión de camino y de compresión por rango.
   - **Para hallar árboles mínimos cobertores**:
@@ -25,6 +25,13 @@ La carpeta incluye dos estudios sobre algoritmos:
 + **Solución RPP**: Estudio sobre la implementación realizada en la clase HeuristicaRPP de un algorito heurístico propuesto por Pearn y Wu para resolver el [problema del cartero rural](https://es.wikipedia.org/wiki/Problema_del_cartero_chino#Variantes), o RPP (Rural Postman Problem). Se explica la solución y los detalles de implementación pertinentes, y se incluye un análisis comparativo de los resultados, comparando la eficacia y eficiencia del algoritmo usando dos algoritmos heurísticos para hallar apareamientos perfectos de costo mínimo aproximado:
   - Un algoritmo ávido descrito en el archivo correspondiente al Proyecto 2 en la carpeta de especificaciones.
   - El algoritmo Vertex-Scan propuesto por David Avis.
+
+# Compilación
+
+Se incluye un _Makefile_ que compila la librería entera con el comando
+```
+> make
+```
 
 # Librería
 
