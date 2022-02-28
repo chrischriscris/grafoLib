@@ -42,4 +42,4 @@ La librería entera es construida usando como base la interfaz `Grafo` y la clas
 Este proyecto está bajo la Licencia GNU GPL v3.0 - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ---
-Hecho con ❤️ por [chrischriscris](https://github.com/chrischriscris) 😊
+Hecho con ❤️ por [chrischriscris](https://github.com/chrischriscris) y [fungikami](https://github.com/fungikami) 😊
